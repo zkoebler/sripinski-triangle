@@ -36,7 +36,6 @@ function setup() {
     background(250);
     drawPattern(500,500,800,x);
     if(x == 8){
-        delay(5000);
         x = 1;
     } else {x +=1;}
     
